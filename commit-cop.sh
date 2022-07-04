@@ -76,7 +76,9 @@ else
      do
         cd $dir
         LOCAL=$(git log | grep "$(date +'%a %b %-d')" | wc -l)
-        echo "$LOCAL total commits in $dir"
+        if [[ $1 == "-v" ]]; then
+            echo "$LOCAL total commits in $dir"
+        fi
         TOTAL_COMMITS=$(($TOTAL_COMMITS + $LOCAL ))
     done
     echo ""
