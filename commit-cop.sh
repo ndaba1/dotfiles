@@ -36,6 +36,7 @@ function add_recursive_dir() {
     fi
 }
 
+
 if [[ $1 == "add" ]]; then
     if [[ $2 == "-r" ]]; then
         add_recursive_dir 1
@@ -69,6 +70,31 @@ elif [[ $1 == "-h" || $1 == "--help" ]]; then
 
     echo "Run the script without arguments to count all the total commits of the day 
 accross all the tracked repositories."
+elif [ "$1" == "ahead" ]; then
+    UNPUSHED_COMMITS=0
+    for dir in $(cat ~/.my_repos)
+     do
+      cd $dir
+      LOCAL=$(git status | grep -E "ahead" | tr " " "\n" | grep -E "^[0-9]+")
+      if [[ $LOCAL == "" ]]; then
+        LOCAL=0
+      fi
+
+      if [[ $2 == "-v" ]]; then
+        echo "$LOCAL unpushed commit(s) in $dir"
+      fi
+      UNPUSHED_COMMITS=$(($UNPUSHED_COMMITS + $LOCAL ))
+     done
+
+     echo ""
+     echo "Total unpushed commits: $UNPUSHED_COMMITS"
+elif [ "$1" == "push" ]; then
+    for dir in $(cat ~/.my_repos)
+    do
+        cd $dir
+        echo "Pushing commits in $dir..."
+        $(git push)            
+    done
 else 
     TOTAL_COMMITS=0
     # count total commits
@@ -77,7 +103,7 @@ else
         cd $dir
         LOCAL=$(git log | grep "$(date +'%a %b %-d')" | wc -l)
         if [[ $1 == "-v" ]]; then
-            echo "$LOCAL total commits in $dir"
+            echo "$LOCAL total commit(s) in $dir"
         fi
         TOTAL_COMMITS=$(($TOTAL_COMMITS + $LOCAL ))
     done
