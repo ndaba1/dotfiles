@@ -1,0 +1,63 @@
+Installed package is not available from any source: 360 Total Security
+Installed package is not available from any source: Adobe After Effects 2022
+Installed package is not available from any source: Adobe Media Encoder 2021
+Installed package is not available from any source: Adobe Audition 2021
+Installed package is not available from any source: Adobe XD
+Installed package is not available from any source: Adobe Genuine Service
+Installed package is not available from any source: Evernote
+Installed package is not available from any source: FL Studio ASIO
+Installed package is not available from any source: Adobe Animate 2021
+Installed package is not available from any source: FLT 7.1v1
+Installed package is not available from any source: Houdini 19.0.383
+Installed package is not available from any source: Adobe Illustrator 2022
+Installed package is not available from any source: Magic Bullet Suite
+Installed package is not available from any source: Microsoft Edge Update
+Installed package is not available from any source: Cortana
+Installed package is not available from any source: MSN Weather
+Installed package is not available from any source: App Installer
+Installed package is not available from any source: Get Help
+Installed package is not available from any source: Microsoft Tips
+Installed package is not available from any source: HEIF Image Extensions
+Installed package is not available from any source: Paint 3D
+Installed package is not available from any source: 3D Viewer
+Installed package is not available from any source: Microsoft Edge
+Installed package is not available from any source: Office
+Installed package is not available from any source: Microsoft Solitaire Collection
+Installed package is not available from any source: Microsoft Sticky Notes
+Installed package is not available from any source: Mixed Reality Portal
+Installed package is not available from any source: OneNote for Windows 10
+Installed package is not available from any source: Microsoft People
+Installed package is not available from any source: Snip & Sketch
+Installed package is not available from any source: Skype
+Installed package is not available from any source: Store Experience Host
+Installed package is not available from any source: VP9 Video Extensions
+Installed package is not available from any source: Microsoft Pay
+Installed package is not available from any source: Web Media Extensions
+Installed package is not available from any source: Webp Image Extensions
+Installed package is not available from any source: Microsoft Photos
+Installed package is not available from any source: Windows Clock
+Installed package is not available from any source: Windows Calculator
+Installed package is not available from any source: Windows Camera
+Installed package is not available from any source: Feedback Hub
+Installed package is not available from any source: Windows Maps
+Installed package is not available from any source: Windows Voice Recorder
+Installed package is not available from any source: Microsoft Store
+Installed package is not available from any source: Windows Package Manager Source (winget)
+Installed package is not available from any source: Xbox TCUI
+Installed package is not available from any source: Xbox Console Companion
+Installed package is not available from any source: Xbox Game Bar Plugin
+Installed package is not available from any source: Xbox Game Bar
+Installed package is not available from any source: Xbox Identity Provider
+Installed package is not available from any source: Xbox Game Speech Window
+Installed package is not available from any source: Phone Link
+Installed package is not available from any source: Groove Music
+Installed package is not available from any source: Movies & TV
+Installed package is not available from any source: Mozilla Firefox (x64 en-US)
+Installed package is not available from any source: Mozilla Maintenance Service
+Installed package is not available from any source: MtoA for Maya 2023
+Installed package is not available from any source: Nuke 13.1v2
+Installed package is not available from any source: Adobe Photoshop 2020
+Installed package is not available from any source: Adobe Premiere Pro 2022
+Installed package is not available from any source: Microsoft Office Professional Plus 2021 - en-us
+Installed package is not available from any source: Spotify Music
+Installed package is not available from any source: Sublime Text
